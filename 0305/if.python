@@ -1,0 +1,23 @@
+# if x:
+#    print 'True'
+#		只要x是非零数值、非空字符串、非空list等，就判断为True，否则为False。
+age = 3
+if age > 20:
+    print 'adult'
+elif age >= 6:
+		print 'teenager'
+else:
+		print 'kid'
+
+
+list = []
+if list:
+    print 'not empty'
+else:		
+    print 'empty'
+
+mytuple = (222,)
+if mytuple:
+    print 'not empty tuple'
+else:
+    print 'empty tuple'
