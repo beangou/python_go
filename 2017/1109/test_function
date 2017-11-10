@@ -1,0 +1,13 @@
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
+
+
+def hello_world(x):
+    if x >= 0:
+        print "%s it is正数" % x
+    else:
+        print "%s it is负数" % x
+
+
+print "result=%s " % hello_world(100)
+print "result=%s " % hello_world(-10)
